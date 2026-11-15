@@ -39,6 +39,58 @@ p {
   padding: 0;
 }
 
+.slide_show_home
+{
+  display: flex;
+  list-style: none;
+  flex-wrap: nowrap;
+  width: 500%;
+  height: 100%;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  animation: slideshow 15s infinite alternate;
+  gap: 20px;
+}
+  .slide_show_home li 
+  {
+  width: 25%;
+  height: 100%;
+  flex: 0 0 25%;
+  }
+
+  .slide_show_home li img 
+  {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  }
+  
+
+
+.slide-content
+{
+  overflow: hidden;
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+}
+@keyframes slideshow {
+0% {left: 0%;}
+20% {left: 0%;}
+30% {left: -100%;}
+50% {left: -100%;}
+60% {left: -200%;}
+80% {left: -200%;}
+90% {left: -300%;}
+100% {left: -300%;}
+}
+
+
 .navbar-toggler:focus,
 a:focus,
 input:focus,
