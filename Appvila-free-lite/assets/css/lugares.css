@@ -1,0 +1,33 @@
+.Lugares{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px 100px 100px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Lugares img{
+    width: 300px;
+    border-radius: 5px;
+}
+
+.interesTitle{
+    grid-row: 1;
+    grid-column: 1 / span 2;
+    margin-bottom: 1em;
+}
+
+.col1-fil2{
+    grid-row: 2;
+    grid-column: 1;
+}
+.col2-fil2{
+    grid-row: 2;
+    grid-column: 2;
+}
+.col3-fil2{
+    grid-row: 2;
+    grid-column: 3;
+}
