@@ -50,16 +50,16 @@ p {
   padding: 0;
   margin: 0;
   animation: slideshow 25s infinite alternate;
-  gap: 20px;
+  gap: 0px;
 }
   .slide_show_home li 
   {
-  width: 25%;
+  width: 20%;
   height: 100%;
-  flex: 0 0 25%;
+  flex: 0 0 20%;
   }
 
-  .slide_show_home li img 
+  .n_slides 
   {
   width: 100%;
   display: block;
@@ -67,15 +67,26 @@ p {
   object-fit: cover;
   opacity: .80;
   filter: grayscale(.4);
+  gap:0;
+  }
+  .o_slides 
+  {
+    margin-top: 2em;
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  opacity: .80;
+  filter: grayscale(.4);
+  gap:0;
   }
 
 .slide-content
 {
   overflow: hidden;
   width: 100%;
-  max-width: 950px;
   margin: 0 auto;
-  height: 450px;
+  height: 560px;
   border-radius: 10px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.55);
 }
@@ -83,15 +94,28 @@ p {
 {
 0% {left: 0%;}
 10% {left: 0%;}
-20% {left: -130%;}
-30% {left: -130%;}
-40% {left: -260%;}
-50% {left: -260%;}
-60% {left: -390%;}
-70% {left: -390%;}
-80% {left: -520%;}
-90% {left: -520%;}
-100% {left: -520%;}
+20% {left: -100%;}
+30% {left: -100%;}
+40% {left: -200%;}
+50% {left: -200%;}
+60% {left: -300%;}
+70% {left: -300%;}
+80% {left: -400%;}
+90% {left: -400%;}
+100% {left: -400%;}
+}
+
+#pueblo
+{
+  position:absolute;
+  text-align: center;
+  top:40%;
+  left:25%;
+  font-size: 700%;
+  filter: grayscale(0);
+  font-family: "BBH Bogle", sans-serif;
+  -webkit-text-stroke: 2px var(--crema);
+  paint-order: stroke fill;
 }
 
 .nav-item:hover, a:hover
@@ -2058,7 +2082,7 @@ ol {
 ========================================*/
 .hero-area {
   position: relative;
-  padding: 180px 0 120px 0;
+  padding: 180px 0 40px 0;
   background: var(--main_color);
 }
 

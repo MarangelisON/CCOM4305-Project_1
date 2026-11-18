@@ -1,7 +1,6 @@
 # CCOM4305-Project_1
 
 # Barceloneta 
-***************
 
 ## Integrantes: 
 * Marangelis Ocasio Narváez (840-23-2870) 
@@ -9,4 +8,4 @@
  
 ***************
 
-* Template by Uldeck: https://onepagelove.com/appvilla 
+#Template by Uldeck: https://onepagelove.com/appvilla 
