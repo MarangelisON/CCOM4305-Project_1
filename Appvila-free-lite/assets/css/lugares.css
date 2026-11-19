@@ -1,30 +1,37 @@
 .Lugares{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 75px 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 75px 1fr;
+    gap: 10px;
     margin-top: 1em;
     margin-bottom: 15em;
-    padding-top: 50px ;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
 
-.Lugares img{
-    height: 225px;
-    width: 400px;
-    border-radius: 20px;
-    padding: 5px 5px 5px 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.Lugar{
+    padding: 2em;
 }
 
+.Lugares img{
+    height: 400px;
+    width: 650px;
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+    border: solid 1px #33141D;
+}
+
+.tituloPic{
+    margin-top: 1em;
+    padding-left: 3em;
+}
 .interesTitle{
+    text-align: center;
     grid-row: 1;
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 2;
     margin-bottom: 2em;
-    padding-left: 20px;
 }
 
 .col1-fil2{
@@ -37,18 +44,20 @@
     grid-row: 2;
     grid-column: 2;
 }
-.col3-fil2{
-    margin-top: 2em;
-    grid-row: 2;
-    grid-column: 3;
-}
-
 .col1-fil3{
     margin-top: 2em;
     grid-row: 3;
     grid-column: 1;
 }
 
+.col2-fil3{
+    margin-top: 2em;
+    grid-row: 3;
+    grid-column: 2;
+}
+
 .picDescriptions{
-    font-size: 8px;
+    font-size: 14px;
+    padding-left: 4.2em;
+    padding-right: 4.2em;
 }
