@@ -118,6 +118,58 @@ p {
   paint-order: stroke fill;
 }
 
+.contactContainer{
+  display: grid;
+  grid-template-columns: (2, 1fr);
+  grid-template-rows: 75px 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.contactTitle{
+  grid-row: 1;
+  grid-column: 1 / span 2;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.contactMap{
+  grid-row: 2;
+  grid-column: 1 / span 2;
+  display: flex;
+  justify-content: center;
+}
+
+iframe{
+  width: 95%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.contactInfo{
+  grid-row: 3;
+  grid-column: 1;
+  background-color: var(--brown_claro);
+  border-radius: 20px;
+  margin-left: 35px;
+}
+
+.extensiones{
+  grid-row: 4;
+  grid-column: 1;
+  background-color: var(--brown_claro);
+  border-radius: 20px;
+  margin-left: 35px;
+}
+
+.contactForm{
+  grid-row: 3 / span 2;
+  grid-column: 2;
+  background-color: var(--brown_claro);
+  border-radius: 20px;
+  margin-right: 35px;
+}
+
 .nav-item:hover, a:hover
 {
   color: var(--dorado) !important;

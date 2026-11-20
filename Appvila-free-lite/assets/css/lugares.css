@@ -34,6 +34,10 @@
     margin-bottom: 2em;
 }
 
+.interesTitle h1{
+    font-weight: bold;
+}
+
 .col1-fil2{
     margin-top: 2em;
     grid-row: 2;
