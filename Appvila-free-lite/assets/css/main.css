@@ -169,6 +169,70 @@ iframe{
   border-radius: 20px;
   margin-right: 35px;
 }
+#history_home
+{
+  img
+  {
+    width: 40%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.55);
+
+  }
+  h3
+  {
+    position: absolute;
+    left:45%;
+    top:20%;
+    font-weight: bold;
+    font-size: 150%;
+    color: var(--crema);
+  }
+    #p1
+    {
+      position: absolute;
+      top: 30%;
+      left:45%;
+      color: var(--crema);
+    }
+    #p2
+    {
+      position: absolute;
+      top: 38%;
+      left:45%;
+      color: var(--crema);
+    }
+  a
+  {
+    position: absolute;
+    top:50%;
+    left: 45%;
+    color: var(--crema);
+  }
+  a:hover
+  {
+    color: var(--dorado);
+    font-weight: bold;
+  }
+  
+
+}
+
+/************  Info General  **********************/
+#History
+{
+  
+}
+#Himno
+{
+
+}
+#Barrios
+{
+
+}
+
+
+
+/**************************************************/
 
 .nav-item:hover, a:hover
 {
@@ -2137,43 +2201,48 @@ ol {
   padding: 180px 0 40px 0;
   background: var(--main_color);
 }
+.hero-area2 {
+  position: relative;
+  padding: 150px 0 40px 0;
+  background: var(--main_color);
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .hero-area {
+  .hero-area,.hero-area2  {
     padding: 150px 0 60px 0;
   }
 }
 
 @media (max-width: 767px) {
-  .hero-area {
+  .hero-area, .hero-area2 {
     padding: 120px 0 50px 0;
   }
 }
 
-.hero-area .hero-image img {
+.hero-area .hero-image img, .hero-area2 .hero-image img{
   width: 100%;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .hero-area .hero-image {
+  .hero-area .hero-image, .hero-area2 .hero-image{
     margin-top: 40px;
   }
 }
 
 @media (max-width: 767px) {
-  .hero-area .hero-image {
+  .hero-area .hero-image, .hero-area2 .hero-image {
     margin-top: 40px;
   }
 }
 
-.hero-area .hero-content {
+.hero-area .hero-content, .hero-area2 .hero-content {
   border-radius: 0;
   position: relative;
   z-index: 1;
   text-align: left;
 }
 
-.hero-area .hero-content h1 {
+.hero-area .hero-content h1, .hero-area2 .hero-content h1 {
   font-size: 38px;
   font-weight: 800;
   line-height: 50px;
@@ -2222,7 +2291,7 @@ ol {
 }
 
 @media (max-width: 767px) {
-  .hero-area .hero-content .button .video-button {
+  .hero-area .hero-content .button .video-button, .hero-area2 .hero-content .button .video-button {
     margin-top: 20px;
   }
 }
