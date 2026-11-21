@@ -172,6 +172,17 @@ iframe{
   border-radius: 20px;
   margin-right: 35px;
 }
+#intro_home
+{
+  h2
+  {
+    font-size: 450%;
+  }
+  h3
+  {
+    font-size: 250%;
+  }
+}
 #history_home
 {
   img
@@ -195,7 +206,7 @@ iframe{
   {
     position: absolute;
     left:45%;
-    top:20%;
+    top:10%;
     font-weight: bold;
     font-size: 150%;
     color: var(--crema);
@@ -228,6 +239,51 @@ iframe{
   }
   
 
+}
+#legislatura_home
+{
+  h2
+  {
+    position: absolute;
+    top:10%;
+    text-align: left;
+    color: var(--crema);
+   
+  }
+  h3
+  {
+    position: absolute;
+    top: 30%;
+    text-align: left;
+    color: var(--crema);
+  }
+  p
+  {
+    position: absolute;
+    top: 40%;
+    text-align: left;
+  }
+  img
+  {
+    width: 30%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.55);
+    border: 4px double var(--dorado);
+    position: absolute;
+    right: 15%;
+    top: 10%;
+  }
+  a
+  {
+    position: absolute;
+    top: 60%;
+    left: 17.5%;
+    color: var(--crema);
+  }
+  a:hover
+  {
+    color: var(--dorado);
+    font-weight: bold;
+  }
 }
 
 /************  Info General  **********************/
@@ -2509,7 +2565,8 @@ ol {
 .our-achievement {
   background-color: var(--main_color);
   text-align: center;
-  padding: 130px 0;
+  padding: 550px 0;
+  padding-bottom: 100px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
