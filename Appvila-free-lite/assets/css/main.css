@@ -178,7 +178,18 @@ iframe{
   {
     width: 40%;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.55);
+    border: 4px double var(--dorado);
 
+  }
+  h2
+  {
+    font-family: "Cormorant Upright", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 180%;
+    margin-left: 1.5em;
+    margin-top: .2em;
+    color: var(--crema);
   }
   h3
   {
@@ -1653,8 +1664,8 @@ ol {
     width: 100%;
     background-color: var(--crema);
     z-index: 9;
-    -webkit-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
-            box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.7);
+            box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.7);
     padding: 10px 20px;
     max-height: 350px;
     overflow-y: scroll;
@@ -1747,8 +1758,8 @@ ol {
     width: 100%;
     background-color: var(--crema);
     z-index: 9;
-    -webkit-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
-            box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.7);
+            box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.7);
     padding: 10px 20px;
     max-height: 350px;
     overflow-y: scroll;
@@ -1887,8 +1898,8 @@ ol {
   position: fixed;
   z-index: 99;
   background-color: var(--crema);
-  -webkit-box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
-          box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 5);
+          box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 5);
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   top: 0;
@@ -1937,8 +1948,8 @@ ol {
   position: fixed;
   z-index: 99;
   background: var(--main_color);
-  -webkit-box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
-          box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, .3); /*Header shadow*/
+          box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, .3);
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   background: var(--crema);
@@ -2461,8 +2472,8 @@ ol {
 }
 
 .features .single-feature:hover {
-  -webkit-box-shadow: 0px 3px 5px #00000017;
-          box-shadow: 0px 3px 5px #00000017;
+  -webkit-box-shadow: 0px 5px 10px #0000006e;
+          box-shadow: 0px 5px 10px #0000006e;
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
 }
