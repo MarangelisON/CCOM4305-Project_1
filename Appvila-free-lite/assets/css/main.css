@@ -57,6 +57,19 @@ p {
   width: 20%;
   height: 100%;
   flex: 0 0 20%;
+    h2
+    {
+      position: absolute;
+      font-size: 500%;
+      color: var(--crema);
+      z-index: 9999;
+      padding: .3em;
+      margin-left: .2em;
+      top:60%;
+      text-shadow: 0px 7px 15px rgba(0, 0, 0, 0.95);
+      
+      
+    }
   }
 
   .n_slides 
@@ -65,19 +78,8 @@ p {
   display: block;
   height: 100%;
   object-fit: cover;
-  opacity: .80;
-  filter: grayscale(.4);
-  gap:0;
-  }
-  .o_slides 
-  {
-    margin-top: 2em;
-  width: 100%;
-  display: block;
-  height: 100%;
-  object-fit: cover;
-  opacity: .80;
-  filter: grayscale(.4);
+  opacity: .68;
+  filter: grayscale(.5);
   gap:0;
   }
 
