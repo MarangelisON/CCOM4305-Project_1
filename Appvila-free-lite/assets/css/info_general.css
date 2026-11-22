@@ -1,0 +1,86 @@
+:root
+{
+  --vino:#33141D;
+  --main_color:#800020;
+  --brown_claro:#682523;
+  --crema: #FBF0D5;
+  --dorado: #DE8E0D;
+}
+
+#background_history
+{
+    padding-top: 6%;
+    padding-left: 8%;
+    padding-bottom: 15%;
+    background-color: var(--vino);
+
+    h3
+    {
+        padding-right: 10%;
+        text-align: center;
+        font-size: 300%;
+        color: var(--crema);
+    }
+    p
+    {
+        padding-right: 60%;
+        color: var(--crema);
+        font-size: 125%;
+    }
+    img
+    {
+        position: absolute;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.55);
+        border: 4px double var(--dorado);
+    }
+    #img1
+    {
+        width: 18%;
+        top:30%;
+        right: 8%;
+    }
+    #img2
+    {
+        width: 22%;
+        top:47.5%;
+        right: 27%;
+    }
+    #img3
+    {
+        width: 18%;
+        top:60%;
+        right: 8%;
+    }
+}
+
+#Bandera_escudo
+{
+    img
+    {
+        width: 20%;
+    }
+}
+
+#Himno
+{
+    padding-top: 6%;
+    padding-left: 8%;
+    padding-bottom: 15%;
+    background-color: var(--vino);
+    h2
+    {
+        color: var(--crema);
+    }
+    p
+    {
+        color: var(--crema);
+    }
+}
+
+#Barrios
+{
+    img
+    {
+        width: 20%;
+    }
+}
