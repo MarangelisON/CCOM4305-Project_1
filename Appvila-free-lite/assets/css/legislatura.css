@@ -18,34 +18,47 @@
     color: var(--crema);
     padding: 10%;
     padding-top: 6%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:  50px 70px 1fr 1fr;
 
     img
     {
-        position: absolute;
-        top: 84%;
-        right: 10%;
-        width: 30%;
+        grid-column: 2;
+        grid-row: 3 / span 2;
+        width: 80%;
         box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
         border: 4px double var(--dorado);
+        margin-left: 25%;
     }
     h2
     {
+        grid-column: 1;
+        grid-row: 2;
         text-align: center;
         margin-bottom: 3%;
         color: var(--crema);
-        padding-right: 45%;
     }
     p
     {
+        grid-column: 1;
+        grid-row: 3;
         font-size: 140%;
         line-height: 1.5;
-        padding-right: 45%;
+        text-indent: 2em;
+    }
+    #secondP{
+        grid-column: 1;
+        grid-row: 4;
+        font-size: 140%;
+        line-height: 1.5;
         text-indent: 2em;
     }
     #alc
     {
+        grid-column: 1;
+        grid-row: 1;
         text-align: center;
-        padding-right: 45%;
         color: var(--dorado);
        
     }
@@ -55,7 +68,11 @@
     color: var(--crema);
     padding: 10%;
     padding-top: 6%;
-
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:  50px 70px 1fr;
+    gap: 20px;
+    column-gap: 70px;
     img
     {
         width: 30%;
@@ -64,10 +81,11 @@
     }
     h2
     {
+        grid-column: 1;
+        grid-row: 2;
         text-align: center;
         margin-bottom: 3%;
         color: var(--crema);
-        padding-right: 54%;
     }
     h3
     {
@@ -76,10 +94,15 @@
     }
     p
     {
+        grid-column: 1;
+        grid-row: 3;
         font-size: 140%;
         line-height: 1.5;
-        padding-right: 50%;
         text-indent: 2em;
+    }
+    #pres-p
+    {
+        margin-left: 20px;
     }
     ul
     {
@@ -90,33 +113,31 @@
     }
     #presi
     {
+        grid-column: 1;
+        grid-row: 1;
         text-align: center;
-        padding-right: 55%;
         color: var(--dorado);
     }
     #sec
     {
-        position: absolute;
-        padding-right: 10%;
-        padding-left: 50%;
-        top:173.5%;
+        grid-column: 2;
+        grid-row: 1;
+        text-align: center;
         color: var(--dorado);
     }
 
     #sec-h2
     {
-        position: absolute;
-        top:177%;
-        padding-right: 10%;
-        padding-left: 45%;
+        grid-column: 2;
+        grid-row: 2;
+        text-align: center;
     }
     
     #sec-p2
     {
-        position: absolute;
-        top:187%;
-        padding-right: 10%;
-        padding-left: 45%;
+        grid-column: 2;
+        grid-row: 3;
+        margin-left: 50px;
     }
 }
 
