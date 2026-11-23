@@ -62,7 +62,7 @@ p {
       position: absolute;
       font-size: 500%;
       color: var(--crema);
-      z-index: 9999;
+      z-index: 8;
       padding: .3em;
       margin-left: .2em;
       top:60%;
@@ -325,12 +325,22 @@ label{
 }
 #legislatura_home
 {
+  #hon
+  {
+    font-size: 185%;
+    font-family: "Cormorant Upright", serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-left: 45%;
+    top: 88.5%;
+  }
   h2
   {
     position: absolute;
-    top:10%;
+    top:15%;
     text-align: left;
     color: var(--crema);
+    font-size: 155%;
    
   }
   h3
@@ -343,22 +353,23 @@ label{
   p
   {
     position: absolute;
-    top: 40%;
+    top: 30%;
     text-align: left;
+    padding-right: 60%;
   }
   img
   {
-    width: 30%;
+    width: 27%;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.55);
     border: 4px double var(--dorado);
     position: absolute;
     right: 15%;
-    top: 10%;
+    top: 7.5%;
   }
   a
   {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 17.5%;
     color: var(--crema);
   }
@@ -369,23 +380,62 @@ label{
   }
 }
 
-/************  Info General  **********************/
-#History
+#lugares_home
 {
-  
+  padding-left: 10%;
+  img
+  {
+    width: 40%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.55);
+    border: 4px double var(--dorado);
+    
+
+  }
+  h2
+  {
+    font-family: "Cormorant Upright", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 180%;
+    margin-left: 1.5em;
+    margin-top: .3em;
+    color: var(--vino);
+    padding-left: 7%;
+  }
+  h3
+  {
+    position: absolute;
+    left:50%;
+    top:24%;
+    font-weight: bold;
+    font-size: 150%;
+    color: var(--vino);
+  }
+    #p1-lugares
+    {
+      position: absolute;
+      top: 40%;
+      left:50%;
+      color: var(--vino);
+    }
+  a
+  {
+    position: absolute;
+    top:60%;
+    left: 50%;
+    color: var(--vino);
+  }
+  a:hover
+  {
+    color: var(--main_color);
+    font-weight: bold;
+  }
 }
-#Himno
+
+#contactos_home
 {
-
+  background-color: var(--crema);
 }
-#Barrios
-{
-
-}
-
-
-
-/**************************************************/
 
 .nav-item:hover, a:hover
 {
@@ -2648,7 +2698,7 @@ ol {
 .our-achievement {
   background-color: var(--main_color);
   text-align: center;
-  padding: 550px 0;
+  padding: 480px 0;
   padding-bottom: 100px;
 }
 
