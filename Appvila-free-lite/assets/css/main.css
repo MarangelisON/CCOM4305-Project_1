@@ -78,7 +78,7 @@ p {
   display: block;
   height: 100%;
   object-fit: cover;
-  opacity: .68;
+  opacity: .78;
   filter: grayscale(.5);
   gap:0;
   }
@@ -162,6 +162,7 @@ iframe{
   border-radius: 20px;
   margin-left: 35px;
   padding: 10px;
+  background-color: var(--vino);
 }
 
 .InfoTitles{
@@ -172,13 +173,13 @@ iframe{
 }
 
 .InfoType{
-  color: var(--vino);
+  color: var(--crema);
   text-align: center;
 }
 
 .InfoText{
   margin-bottom: 25px;
-  color: var(--vino);
+  color: var(--crema);
   text-align: center;
 }
 
@@ -214,6 +215,13 @@ iframe{
   border-radius: 20px;
   margin-right: 35px;
   padding: 10px;
+  background-color: var(--vino);
+  color: var(--crema);
+
+  h2
+  {
+    color: var(--crema);
+  }
 }
 
 form, input{
