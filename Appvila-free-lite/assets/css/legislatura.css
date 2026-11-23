@@ -146,6 +146,7 @@
     color: var(--crema);
     padding: 10%;
     padding-top: 6%;
+    text-align: center;
 
     h2
     {
@@ -168,7 +169,6 @@
     ul
     {
         font-size: 140%;
-        list-style-type: disc;
         line-height: 1.5;
         padding-left: 2%;
     }

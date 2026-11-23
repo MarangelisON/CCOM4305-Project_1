@@ -266,7 +266,7 @@ label{
     font-size: 250%;
   }
 }
-#history_home
+.history_home
 {
   img
   {
@@ -432,9 +432,60 @@ label{
   }
 }
 
-#contactos_home
+#social
 {
-  background-color: var(--crema);
+  padding-left: 3%;
+  padding-bottom: 10%;
+  color: var(--vino);
+
+  a
+  {
+    color: var(--vino);
+    font-size: 150%;
+    padding-left: 2%;
+  }
+}
+
+#line
+{
+  border-top: 4px solid var(--dorado);
+  border-bottom: 4px solid var(--dorado);
+}
+#line2
+{
+  border-bottom: 4px solid var(--dorado);
+}
+#contactos
+{
+  img
+  {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 2%;
+  }
+  h2
+  {
+    position: absolute;
+    padding-left: 6%;
+    top:87%;
+
+  }
+  h3
+  {
+    top: 20%;
+  }
+  p
+  {
+    top:35%;
+  }
+}
+#p1-contactos
+{
+      position: absolute;
+      top: 30%;
+      left:45%;
+      color: var(--crema);
+
 }
 
 .nav-item:hover, a:hover
