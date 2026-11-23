@@ -77,101 +77,132 @@
     padding-right: 10%;
     padding-bottom: 12%;
     color: var(--vino);
-    h2
-    {
-        font-family: "Cormorant Upright", serif;
-        font-weight: 500;
-        font-style: normal;
-        font-size: 350%;
-        text-align: center;
-        margin-bottom: 1.5em;
-    }
-    #img1be
-    {
-        width: 45%;
-        padding-top: 5%;
-    }
-    #p_bandera
-    {
-        padding-top: 5.5%;
-        padding-right: 55%;
-        font-size: 125%;
-        line-height: 1.5;
-    }
-    #ul_bandera
-    {
-        padding-top: 2.5%;
-        padding-right: 55%;
-        padding-left: 1%;
-        list-style-type: disc;
-        font-size: 125%;
-        line-height: 1.5;
-    }
+    .BanderaGrid{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 200px 1fr auto;
+        gap: 20px;
+        column-gap: 80px;
+        h2
+        {
+            grid-column: span 2;
+            text-align: center;
+            font-family: "Cormorant Upright", serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 350%;
+            text-align: center;
+            margin-bottom: 1.5em;
+        }
+        #img1be
+        {   grid-column: 1;
+            grid-row: 2;
+            width: 80%;
+            margin: auto;
+        }
+        #p_bandera
+        {
+            grid-column: 1;
+            grid-row: 3;
+            font-size: 125%;
+            line-height: 1.5;
+        }
+        #ul_bandera
+        {
+            grid-column: 1;
+            padding-left: 3%;
+            list-style-type: disc;
+            font-size: 125%;
+            line-height: 1.5;
+        }
 
-    #img2be
-    {
-        position: absolute;
-        width: 20%;
-        right: 17%;
-        top: 233%;
+        #img2be
+        {
+            grid-column: 2;
+            grid-row: 2;
+            margin: auto;
+            width: 40%;
+            right: 17%;
+            top: 233%;
+        }
+        #p_escudo
+        {
+            grid-column: 2;
+            grid-row: 3;
+            right: 10%;
+            top: 290.7%;
+            font-size: 125%;
+            line-height: 1.5;
+        }
+        #ul_escudo
+        {
+            grid-column: 2;
+            right: 10%;
+            top: 316%;
+            list-style-type: disc;
+            font-size: 125%;
+            line-height: 1.5;
+            padding-left: 3%;
+        }
     }
-    #p_escudo
-    {
-        position: absolute;
-        right: 10%;
-        top: 290.7%;
-        padding-left: 55%;
-        font-size: 125%;
-        line-height: 1.5;
-    }
-    #ul_escudo
-    {
-        position: absolute;
-        right: 10%;
-        top: 316%;
-        padding-left: 56%;
-        list-style-type: disc;
-        font-size: 125%;
-        line-height: 1.5;
-    }
+    
 }
 
 #Himno
 {
     padding-top: 6%;
-    padding-left: 14%;
     padding-bottom: 6%;
     background-color: var(--vino);
-    h2
-    {
-        font-family: "Cormorant Upright", serif;
-        font-weight: 500;
-        font-style: normal;
-        font-size: 350%;
-        text-align: center;
-        color: var(--crema);
-    }
-    #titulo_himno
-    {
-        text-align: left;
-        font-family: arial;
-        font-size: 210%;
-        padding-top: 2%;
-        font-style: italic;
-    }
-    #historia_himno
-    {
-        color: var(--crema);
-        font-size: 150%;
-        font-style: none;
-    }
-    p
-    {
-        padding-top: 3%;
-        font-size: 140%;
-        color: var(--crema);
-        line-height: 1.5;
-    }
+    .himnoGrid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 100px 50px 1fr;
+        h2
+        {
+            grid-column: span 2;
+            grid-row: 1;
+            text-align: center;
+            font-family: "Cormorant Upright", serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 350%;
+            text-align: center;
+            color: var(--crema);
+        }
+        #titulo_himno
+        {   
+            grid-column: 1;
+            grid-row: 2;
+            text-align: left;
+            font-family: arial;
+            font-size: 210%;
+            padding-top: 2%;
+            padding-left: 25%;
+            font-style: italic;
+        }
+        #himnoFull
+        {
+            grid-column: 1;
+            grid-row: 3;
+            padding-left: 27%;
+        }
+        #historia_himno
+        {
+            grid-column: 2;
+            grid-row: 3;
+            color: var(--crema);
+            font-size: 150%;
+            font-style: none;
+            padding-right: 15%;
+        }
+        p
+        {
+            padding-top: 3%;
+            font-size: 140%;
+            color: var(--crema);
+            line-height: 1.5;
+        }
+    }  
 }
 
 #Barrios
@@ -181,7 +212,9 @@
     padding-top: 6%;
     img
     {
-        width: 30%;
+        display: block;
+        margin: auto;
+        width: 40%;
         box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
         border: 4px double var(--dorado);
     }
