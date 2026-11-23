@@ -7,25 +7,43 @@
   --dorado: #DE8E0D;
 }
 
+#intro_h2
+{
+    
+}
+
+#intro_p
+{
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
 #background_history
 {
     padding-top: 6%;
     padding-left: 8%;
-    padding-bottom: 15%;
+    padding-bottom: 6%;
     background-color: var(--vino);
+    border-top: 4px solid var(--dorado);
+    border-bottom: 4px solid var(--dorado);
 
     h3
     {
+        font-family: "Cormorant Upright", serif;
+        font-weight: 500;
+        font-style: normal;
         padding-right: 10%;
         text-align: center;
-        font-size: 300%;
+        font-size: 350%;
         color: var(--crema);
     }
     p
     {
+        text-indent: 2em;
         padding-right: 60%;
         color: var(--crema);
         font-size: 125%;
+        line-height: 1.5;
     }
     img
     {
@@ -35,52 +53,202 @@
     }
     #img1
     {
-        width: 18%;
-        top:30%;
+        width: 25%;
+        top:31%;
         right: 8%;
     }
     #img2
     {
-        width: 22%;
-        top:47.5%;
-        right: 27%;
+        width: 30%;
+        top:51.5%;
+        right: 21%;
     }
     #img3
     {
-        width: 18%;
-        top:60%;
+        width: 25%;
+        top:69.8%;
         right: 8%;
     }
 }
 
 #Bandera_escudo
 {
-    img
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 12%;
+    color: var(--vino);
+    h2
     {
+        font-family: "Cormorant Upright", serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 350%;
+        text-align: center;
+        margin-bottom: 1.5em;
+    }
+    #img1be
+    {
+        width: 45%;
+        padding-top: 5%;
+    }
+    #p_bandera
+    {
+        padding-top: 5.5%;
+        padding-right: 55%;
+        font-size: 125%;
+        line-height: 1.5;
+    }
+    #ul_bandera
+    {
+        padding-top: 2.5%;
+        padding-right: 55%;
+        padding-left: 1%;
+        list-style-type: disc;
+        font-size: 125%;
+        line-height: 1.5;
+    }
+
+    #img2be
+    {
+        position: absolute;
         width: 20%;
+        right: 17%;
+        top: 233%;
+    }
+    #p_escudo
+    {
+        position: absolute;
+        right: 10%;
+        top: 290.7%;
+        padding-left: 55%;
+        font-size: 125%;
+        line-height: 1.5;
+    }
+    #ul_escudo
+    {
+        position: absolute;
+        right: 10%;
+        top: 316%;
+        padding-left: 56%;
+        list-style-type: disc;
+        font-size: 125%;
+        line-height: 1.5;
     }
 }
 
 #Himno
 {
     padding-top: 6%;
-    padding-left: 8%;
-    padding-bottom: 15%;
+    padding-left: 14%;
+    padding-bottom: 6%;
     background-color: var(--vino);
     h2
     {
+        font-family: "Cormorant Upright", serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 350%;
+        text-align: center;
         color: var(--crema);
+    }
+    #titulo_himno
+    {
+        text-align: left;
+        font-family: arial;
+        font-size: 210%;
+        padding-top: 2%;
+        font-style: italic;
+    }
+    #historia_himno
+    {
+        color: var(--crema);
+        font-size: 150%;
+        font-style: none;
     }
     p
     {
+        padding-top: 3%;
+        font-size: 140%;
         color: var(--crema);
+        line-height: 1.5;
     }
 }
 
 #Barrios
 {
+    color: var(--vino);
+    padding: 10%;
+    padding-top: 6%;
     img
     {
-        width: 20%;
+        width: 30%;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+        border: 4px double var(--dorado);
     }
+    ul
+    {
+        font-size: 140%;
+        list-style-type: disc;
+        line-height: 1.5;
+        padding-left: 2%;
+    }
+    p
+    {
+        font-size: 140%;
+        line-height: 1.5;
+    }
+    h2
+    {
+        margin-top: 4%;
+        margin-bottom: 2%;
+    }
+    #barrios-intro
+    {
+        font-family: "Cormorant Upright", serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 350%;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+    #pueblo_h2
+    {
+
+    }
+    #pueblo_p
+    {
+    }
+    #pueblo_ul
+    {
+        
+    }
+
+    #palmas_h2{}
+    #palmas_p
+    {
+    }
+    #palmas_ul
+    {
+        
+    }
+
+    #garr_h2{}
+    #garr_p
+    {
+    }
+    #garr_ul
+    {
+        
+    }
+
+    #flo_h2{}
+    #flo_p
+    {
+    }
+    #flo_ul
+    {
+        
+    }
+
+
 }

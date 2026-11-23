@@ -1,4 +1,155 @@
-root
+:root
 {
-    
+  --vino:#33141D;
+  --main_color:#800020;
+  --brown_claro:#682523;
+  --crema: #FBF0D5;
+  --dorado: #DE8E0D;
 }
+
+#legislatura
+{
+    background-color: var(--main_color);
+    border-top: 4px solid var(--dorado);
+}
+
+#alcaldesa
+{
+    color: var(--crema);
+    padding: 10%;
+    padding-top: 6%;
+
+    img
+    {
+        position: absolute;
+        top: 84%;
+        right: 10%;
+        width: 30%;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+        border: 4px double var(--dorado);
+    }
+    h2
+    {
+        text-align: center;
+        margin-bottom: 3%;
+        color: var(--crema);
+        padding-right: 45%;
+    }
+    p
+    {
+        font-size: 140%;
+        line-height: 1.5;
+        padding-right: 45%;
+        text-indent: 2em;
+    }
+    #alc
+    {
+        text-align: center;
+        padding-right: 45%;
+        color: var(--dorado);
+       
+    }
+}
+#legisladores
+{
+    color: var(--crema);
+    padding: 10%;
+    padding-top: 6%;
+
+    img
+    {
+        width: 30%;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+        border: 4px double var(--dorado);
+    }
+    h2
+    {
+        text-align: center;
+        margin-bottom: 3%;
+        color: var(--crema);
+        padding-right: 54%;
+    }
+    h3
+    {
+        margin-bottom: 1%;
+        color: var(--crema);
+    }
+    p
+    {
+        font-size: 140%;
+        line-height: 1.5;
+        padding-right: 50%;
+        text-indent: 2em;
+    }
+    ul
+    {
+        font-size: 140%;
+        list-style-type: disc;
+        line-height: 1.5;
+        padding-left: 2%;
+    }
+    #presi
+    {
+        text-align: center;
+        padding-right: 55%;
+        color: var(--dorado);
+    }
+    #sec
+    {
+        position: absolute;
+        padding-right: 10%;
+        padding-left: 50%;
+        top:173.5%;
+        color: var(--dorado);
+    }
+
+    #sec-h2
+    {
+        position: absolute;
+        top:177%;
+        padding-right: 10%;
+        padding-left: 45%;
+    }
+    
+    #sec-p2
+    {
+        position: absolute;
+        top:187%;
+        padding-right: 10%;
+        padding-left: 45%;
+    }
+}
+
+#list
+{
+    color: var(--crema);
+    padding: 10%;
+    padding-top: 6%;
+
+    h2
+    {
+        text-align: center;
+        margin-bottom: 3%;
+        color: var(--crema);
+    }
+    h3
+    {
+        margin-bottom: 1%;
+        color: var(--crema);
+    }
+    p
+    {
+        font-size: 140%;
+        line-height: 1.5;
+        padding-right: 50%;
+        text-indent: 2em;
+    }
+    ul
+    {
+        font-size: 140%;
+        list-style-type: disc;
+        line-height: 1.5;
+        padding-left: 2%;
+    }
+}
+
